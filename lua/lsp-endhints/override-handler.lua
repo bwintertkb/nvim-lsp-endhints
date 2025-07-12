@@ -81,7 +81,7 @@ local function changedRefreshHandler(err, result, ctx, _)
 			-- 	local icon = config.icons[hint.kind]
 			-- 	local pad = i ~= 1 and " " or ""
 			-- 	hintsMerged = hintsMerged .. pad .. icon .. hint.label
-			-- end
+			end
 		end
 
 		-- add padding & margin
